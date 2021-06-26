@@ -1,0 +1,24 @@
+State (11 values)
+
+[
+    danger_straight, danger_right, danger_left,
+
+    direction_left, direction_right,
+    direction_up, direction_down,
+
+    food_left, food_right,
+    food_up, food_down
+]
+
+
+example: 
+    [ 
+        0,0,0,
+        0,1,0,0,
+        0,1,0,1
+    ] -> no danger, direction is right, the food is to the right and down.
+
+
+
+Move (3 values):
+straight, right, left 
